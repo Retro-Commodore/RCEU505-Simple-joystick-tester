@@ -1,7 +1,7 @@
 # Simple Joysticktester
 A Simple Joystick Tester as a DIY for Commodore/Atari style digital joystick
 
-!Joystick Tester unsoldered image(/Pics/joystick-tester.jpg)
+![Joystick Tester unsoldered image](Pics/joystick-tester.jpg)
 
 
 Read the document for which resistors to use for which LEDs
