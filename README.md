@@ -1,4 +1,4 @@
-# Simple Joysticktester
+# RCEU505 - Simple Joysticktester
 A Simple Joystick Tester as a DIY for Commodore/Atari style digital joystick
 
 ![Joystick Tester unsoldered image](Pics/joystick-tester.jpg)
