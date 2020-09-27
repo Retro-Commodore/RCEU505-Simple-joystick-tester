@@ -4,8 +4,8 @@ A Simple Joystick Tester as a DIY for Commodore/Atari style digital joystick
 ![Joystick Tester unsoldered image](Pics/joystick-tester.jpg)
 
 
-Read the document for which resistors to use for which LEDs
-The LED's can be generic ones from eBay, so resistor values might not be right for your choice.
+Read the document for which resistor values to use for which color LED.  
+The LED's can be generic ones from eBay, so resistor values might not be right for your choice.  
 
 Shopping list
 * 5x resistors
