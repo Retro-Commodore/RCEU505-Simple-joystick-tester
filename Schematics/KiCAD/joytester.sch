@@ -1,0 +1,223 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Simple Joystick Tester"
+Date "2020-09-28"
+Rev "2"
+Comp "http://retro-commodore.eu"
+Comment1 ""
+Comment2 ""
+Comment3 "by Tomse 2018-2020"
+Comment4 "https://github.com/Retro-Commodore/RCEU505-Simple-joystick-tester"
+$EndDescr
+Wire Wire Line
+	4500 2700 4500 2500
+Wire Wire Line
+	5500 2500 5500 2700
+Wire Wire Line
+	5800 2500 5800 2700
+Wire Wire Line
+	4900 2700 4900 2500
+Wire Wire Line
+	5200 2500 5200 2700
+Wire Wire Line
+	5300 4300 4200 4300
+Wire Wire Line
+	4200 4300 4200 3200
+Wire Wire Line
+	5300 4300 5300 4100
+Text Label 4200 3750 1    70   ~ 0
+GND
+Wire Wire Line
+	5200 3100 5200 3500
+Wire Wire Line
+	5100 3500 4900 3500
+Wire Wire Line
+	4900 3500 4900 3100
+Wire Wire Line
+	5800 2200 5800 2000
+Wire Wire Line
+	4200 2800 4200 2000
+Wire Wire Line
+	4200 2000 4500 2000
+Wire Wire Line
+	4500 2000 4900 2000
+Wire Wire Line
+	4900 2000 5200 2000
+Wire Wire Line
+	5200 2000 5500 2000
+Wire Wire Line
+	5500 2000 5800 2000
+Wire Wire Line
+	4500 2200 4500 2000
+Wire Wire Line
+	4900 2200 4900 2000
+Wire Wire Line
+	5200 2200 5200 2000
+Wire Wire Line
+	5500 2200 5500 2000
+Text Label 4900 2200 1    70   ~ 0
+3V
+Connection ~ 4500 2000
+Connection ~ 4900 2000
+Connection ~ 5200 2000
+Connection ~ 5500 2000
+Wire Wire Line
+	4500 4200 4500 3100
+Wire Wire Line
+	5100 4100 5100 4200
+Wire Wire Line
+	5100 4200 4500 4200
+Wire Wire Line
+	5300 3500 5300 3200
+Wire Wire Line
+	5300 3200 5500 3200
+Wire Wire Line
+	5500 3200 5500 3100
+Wire Wire Line
+	5400 3500 5400 3300
+Wire Wire Line
+	5400 3300 5800 3300
+Wire Wire Line
+	5800 3300 5800 3100
+$Comp
+L joytester-eagle-import:M09D 9PSUBM1
+U 1 1 E00D74E0
+P 5300 3800
+F 0 "9PSUBM1" H 5150 4150 59  0000 L BNN
+F 1 "Male" H 5150 3375 59  0000 L BNN
+F 2 "joytester:M09D" H 5300 3800 50  0001 C CNN
+F 3 "" H 5300 3800 50  0001 C CNN
+	1    5300 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L joytester-eagle-import:LED5MM FIRE1
+U 1 1 4A300F3E
+P 4500 2300
+F 0 "FIRE1" V 4640 2120 59  0000 L BNN
+F 1 "BLUE" V 4725 2120 59  0000 L BNN
+F 2 "joytester:LED5MM" H 4500 2300 50  0001 C CNN
+F 3 "" H 4500 2300 50  0001 C CNN
+	1    4500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L joytester-eagle-import:LED5MM LEFT1
+U 1 1 0B639982
+P 5500 2300
+F 0 "LEFT1" V 5640 2120 59  0000 L BNN
+F 1 "RED" V 5725 2120 59  0000 L BNN
+F 2 "joytester:LED5MM" H 5500 2300 50  0001 C CNN
+F 3 "" H 5500 2300 50  0001 C CNN
+	1    5500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L joytester-eagle-import:LED5MM RIGHT1
+U 1 1 404BD51D
+P 5800 2300
+F 0 "RIGHT1" V 5940 2120 59  0000 L BNN
+F 1 "RED" V 6025 2120 59  0000 L BNN
+F 2 "joytester:LED5MM" H 5800 2300 50  0001 C CNN
+F 3 "" H 5800 2300 50  0001 C CNN
+	1    5800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L joytester-eagle-import:LED5MM UP1
+U 1 1 AC15F50E
+P 4900 2300
+F 0 "UP1" V 5040 2120 59  0000 L BNN
+F 1 "RED" V 5125 2120 59  0000 L BNN
+F 2 "joytester:LED5MM" H 4900 2300 50  0001 C CNN
+F 3 "" H 4900 2300 50  0001 C CNN
+	1    4900 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L joytester-eagle-import:LED5MM DOWN1
+U 1 1 74EBC2C9
+P 5200 2300
+F 0 "DOWN1" V 5340 2120 59  0000 L BNN
+F 1 "RED" V 5425 2120 59  0000 L BNN
+F 2 "joytester:LED5MM" H 5200 2300 50  0001 C CNN
+F 3 "" H 5200 2300 50  0001 C CNN
+	1    5200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L joytester-eagle-import:SN2032 CR2032
+U 1 1 8B8E8844
+P 4200 3000
+F 0 "CR2032" H 4000 3200 59  0000 L TNN
+F 1 "3v" H 4000 2800 59  0000 L BNN
+F 2 "joytester:SN2032" H 4200 3000 50  0001 C CNN
+F 3 "" H 4200 3000 50  0001 C CNN
+	1    4200 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L joytester-eagle-import:R-US_0207_12 R2
+U 1 1 DE64AC0F
+P 4500 2900
+F 0 "R2" H 4350 2959 59  0000 L BNN
+F 1 "47" H 4350 2770 59  0000 L BNN
+F 2 "joytester:0207_12" H 4500 2900 50  0001 C CNN
+F 3 "" H 4500 2900 50  0001 C CNN
+	1    4500 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L joytester-eagle-import:R-US_0207_12 R4
+U 1 1 E1A42A20
+P 5500 2900
+F 0 "R4" H 5350 2959 59  0000 L BNN
+F 1 "47" H 5350 2770 59  0000 L BNN
+F 2 "joytester:0207_12" H 5500 2900 50  0001 C CNN
+F 3 "" H 5500 2900 50  0001 C CNN
+	1    5500 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L joytester-eagle-import:R-US_0207_12 R5
+U 1 1 91DFF8ED
+P 5800 2900
+F 0 "R5" H 5650 2959 59  0000 L BNN
+F 1 "47" H 5650 2770 59  0000 L BNN
+F 2 "joytester:0207_12" H 5800 2900 50  0001 C CNN
+F 3 "" H 5800 2900 50  0001 C CNN
+	1    5800 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L joytester-eagle-import:R-US_0207_12 R1
+U 1 1 0F5C4BB2
+P 4900 2900
+F 0 "R1" H 4750 2959 59  0000 L BNN
+F 1 "47" H 4750 2770 59  0000 L BNN
+F 2 "joytester:0207_12" H 4900 2900 50  0001 C CNN
+F 3 "" H 4900 2900 50  0001 C CNN
+	1    4900 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L joytester-eagle-import:R-US_0207_12 R3
+U 1 1 FB30A1FC
+P 5200 2900
+F 0 "R3" H 5050 2959 59  0000 L BNN
+F 1 "47" H 5050 2770 59  0000 L BNN
+F 2 "joytester:0207_12" H 5200 2900 50  0001 C CNN
+F 3 "" H 5200 2900 50  0001 C CNN
+	1    5200 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 4100 5400 4200
+Wire Wire Line
+	5400 4200 5100 4200
+Connection ~ 5100 4200
+$EndSCHEMATC

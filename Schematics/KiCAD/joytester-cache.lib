@@ -1,0 +1,106 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# joytester-eagle-import_LED5MM
+#
+DEF joytester-eagle-import_LED5MM LED 0 40 Y Y 1 L N
+F0 "LED" 140 -180 59 V V L BNN
+F1 "joytester-eagle-import_LED5MM" 225 -180 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -80 -30 -135 -85 N
+P 2 1 0 0 -75 -75 -130 -130 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 0 0 -50 0 N
+P 2 1 0 0 0 0 0 -100 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 0 -100 N
+P 2 1 0 0 50 0 0 0 N
+P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
+P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
+X A A 0 100 100 D 0 0 1 0 P
+X C K 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# joytester-eagle-import_M09D
+#
+DEF joytester-eagle-import_M09D X 0 40 Y Y 1 L N
+F0 "X" -150 350 59 H V L BNN
+F1 "joytester-eagle-import_M09D" -150 -425 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -109 -223 51 -1789 -1024 1 0 16 N -160 -224 -120 -273
+A -109 223 51 1024 1789 1 0 16 N -120 273 -160 224
+A 109 -271 51 -1013 -11 1 0 16 N 99 -321 159 -272
+A 109 271 51 11 1013 1 0 16 N 160 272 99 321
+P 2 1 0 0 -160 224 -160 -224 N
+P 2 1 0 0 -100 -100 -50 -100 N
+P 2 1 0 0 -100 0 -50 0 N
+P 2 1 0 0 -100 100 -50 100 N
+P 2 1 0 0 -100 200 -50 200 N
+P 2 1 0 0 50 -200 100 -200 N
+P 2 1 0 0 55 -100 105 -100 N
+P 2 1 0 0 55 0 105 0 N
+P 2 1 0 0 55 100 105 100 N
+P 2 1 0 0 55 200 105 200 N
+P 2 1 0 0 99 -321 -120 -273 N
+P 2 1 0 0 99 321 -120 273 N
+P 2 1 0 0 160 272 160 -272 N
+X 1 1 300 200 200 L 50 0 1 0 P
+X 2 2 300 100 200 L 50 0 1 0 P
+X 3 3 300 0 200 L 50 0 1 0 P
+X 4 4 300 -100 200 L 50 0 1 0 P
+X 5 5 300 -200 200 L 50 0 1 0 P
+X 6 6 -300 200 200 R 50 0 1 0 P
+X 7 7 -300 100 200 R 50 0 1 0 P
+X 8 8 -300 0 200 R 50 0 1 0 P
+X 9 9 -300 -100 200 R 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# joytester-eagle-import_R-US_0207_12
+#
+DEF joytester-eagle-import_R-US_0207_12 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "joytester-eagle-import_R-US_0207_12" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# joytester-eagle-import_SN2032
+#
+DEF joytester-eagle-import_SN2032 BAT 0 40 Y Y 1 L N
+F0 "BAT" -200 200 59 H V L TNN
+F1 "joytester-eagle-import_SN2032" -200 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -200 0 -25 0 N
+P 2 1 0 0 -25 0 -25 -50 N
+P 2 1 0 0 -25 50 -25 0 N
+P 2 1 0 0 25 0 25 -100 N
+P 2 1 0 0 25 0 200 0 N
+P 2 1 0 0 25 100 25 0 N
+X + + 200 0 0 L 0 50 1 0 P
+X - - -200 0 0 R 0 50 1 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

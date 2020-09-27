@@ -1,0 +1,5 @@
+Eagle files are deprecated. 
+They can still be used as-is as version 1
+but they won't get updated.
+
+/Tomse 2020-09-28
